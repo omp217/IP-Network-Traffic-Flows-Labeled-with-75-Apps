@@ -2,7 +2,7 @@
 
 ## Dataset Description
 
-This dataset provides a comprehensive analysis of network traffic collected at Universidad Del Cauca, Popayán, Colombia. The data spans six days in April and May 2017, capturing diverse network activities. The dataset includes flow statistics obtained using CICFlowmeter and application layer protocol information obtained through Deep Packet Inspection (DPI) processing with ntopng.
+This dataset provides a comprehensive analysis of network traffic collected at Universidad Del Cauca, Popayán, Colombia. The data spans six days in April and May 2017, capturing diverse network activities. The dataset includes flow statistics obtained using CICFlowmeter and application layer protocol information obtained through Deep Packet Inspection (DPI) processing with ntopng. Overall it contains 87 attributes and 35,77,296 instances.
 
 ### Key Attributes
 
