@@ -62,7 +62,7 @@ The comprehensive approach combines data mining and traditional machine learning
 
 - Hetav (202001447): Data Preprocessing, Classification of Protocol Name using Random Forest and XGBoost
 
-- Vrund (202001075):
+- Vrund (202001075): EDA, Data Preprocessing, Classification of Protocol Name using Decision Tree
 
 - Arth (202001274): EDA
 
