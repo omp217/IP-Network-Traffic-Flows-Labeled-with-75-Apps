@@ -33,3 +33,15 @@ The following steps have been taken to address the user classification problem:
      - Artificial Neural Network
 
 The comprehensive approach combines data mining and traditional machine learning techniques to derive insights into consumption behavior. The classification model, by grouping users based on their consumption patterns, enables the implementation of personalized policies. This, in turn, facilitates the enhancement of network security, maintenance of service quality, prevention of network failures, and the potential for offering targeted data plans to users.
+
+## Contribution
+
+- Om (202001462): Neural Network and Support Vector Machine for Protocol Classification Problem, Entire User Classification Problem (Unsupervised - K-Mean Algorithm and Supervised Learning - K-Nearest Neighbors, Support Vector Machine, Decision Tree, Random Forest, XGBoost, and Artificial Neural Network)
+
+- Hetav (202001447): 
+
+- Vrund (202001075):
+
+- Arth (202001274): EDA
+
+- Vandan (202001041): EDA
