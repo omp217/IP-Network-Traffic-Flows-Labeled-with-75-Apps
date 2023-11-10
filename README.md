@@ -2,6 +2,26 @@
 
 ## Dataset Description
 
+This dataset provides a comprehensive analysis of network traffic collected at Universidad Del Cauca, Popayán, Colombia. The data spans six days in April and May 2017, capturing diverse network activities. The dataset includes flow statistics obtained using CICFlowmeter and application layer protocol information obtained through Deep Packet Inspection (DPI) processing with ntopng.
+
+### Key Attributes
+
+- **Flow Characteristics:** Duration, packet counts, and lengths in both forward and backward directions.
+  
+- **Inter-Arrival Times:** Information on inter-arrival times at the flow, forward, and backward levels.
+
+- **Flag Counts:** Count of different flags (e.g., SYN, FIN) providing details on flag usage.
+
+- **Packet Size and Length:** Metrics such as average packet size, minimum and maximum packet lengths.
+
+- **Bulk Transfer Analysis:** Details on bulk transfer metrics for both forward and backward directions.
+
+- **Subflows:** Information on the number of forward and backward subflows.
+
+- **Connection Time Statistics:** Mean, standard deviation, maximum, and minimum times for both active and idle connections.
+
+Each record in the dataset is labeled as either 'Normal' or 'Malicious,' providing insights into the nature of network activities. The dataset includes information on the Layer 7 protocol and the corresponding protocol name associated with the network traffic. This dataset is suitable for various applications, including network security analysis, anomaly detection, and performance optimization.
+
 ## Protocol Classification Problem
 
 ## User Classification Problem
