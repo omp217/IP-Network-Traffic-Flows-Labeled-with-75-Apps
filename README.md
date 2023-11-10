@@ -23,7 +23,9 @@ This dataset provides a comprehensive analysis of network traffic collected at U
 Each record in the dataset is labeled as either 'Normal' or 'Malicious,' providing insights into the nature of network activities. The dataset includes information on the Layer 7 protocol and the corresponding protocol name associated with the network traffic. This dataset is suitable for various applications, including network security analysis, anomaly detection, and performance optimization.
 
 ## Protocol Classification Problem
+Using the available data we have tried to classify the Protocol Name. Initially we used all the columns except Protocol Name to classify the Protocol Name using decision tree and we got around 99% accuracy. Then we went on removing columns but the accuracy score remained the same. But when we removed L7Protocol column the accuracy went below 40%. On further analysing we found that there is a one-to-one mapping between L7Protocol and Protocol Name. Both of these columns are nominal and hence we couldn't notice the direct mapping through correlation as both the columns are encoded. To reduce the dimensions we used pca but still the accuracy was about 48%. 
 
+There were some Protocol Name which were majority so we decided to split the dataset in two parts one which has Protocol Names which appears more than or equal to  10000 times and other in which the Protocol Name appears betweenn 10000 - 100000 times. Then we did a bit of preproceesing (through intutution and through trial and error).Later we predicted the Protocol Name using the following models Decision Tree, Random Forest, XGBoost, SVM, Neural Network.
 ## User Classification Problem
 
 ### Problem
