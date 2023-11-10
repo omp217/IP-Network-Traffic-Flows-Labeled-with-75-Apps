@@ -60,7 +60,7 @@ The comprehensive approach combines data mining and traditional machine learning
 
 - Om (202001462): Neural Network and Support Vector Machine for Protocol Classification Problem, Entire User Classification Problem (Unsupervised - K-Mean Algorithm and Supervised Learning - K-Nearest Neighbors, Support Vector Machine, Decision Tree, Random Forest, XGBoost, and Artificial Neural Network)
 
-- Hetav (202001447): 
+- Hetav (202001447): Data Preprocessing, Classification of Protocol Name using Random Forest and XGBoost
 
 - Vrund (202001075):
 
